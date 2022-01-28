@@ -120,7 +120,11 @@ supports all Jetson modules.
 
 
 
-https://user-images.githubusercontent.com/89011801/151481042-45cb8c9c-c61f-458a-a3f1-ed9dd1979326.mp4
+
+https://user-images.githubusercontent.com/89011801/151481841-3e314cca-5a72-47d4-9291-620a7291fae3.mp4
+
+
+
 
 
 

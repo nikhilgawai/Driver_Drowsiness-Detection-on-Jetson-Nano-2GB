@@ -1,5 +1,5 @@
 
-# Drowsiness Detection on Yolov5 using Jetson Nano 2gb Developer Kit.
+# Drowsiness Detection on Jetson Nano 2GB Developer Kit using Yolov5.
 
 Drowsiness detection system which will detect whether a person is feeling sleepy
 or not based on his/her behaviour of yawning while driving a vehicle.
@@ -120,7 +120,11 @@ supports all Jetson modules.
 
 
 
-![IMG_20220125_115056](https://user-images.githubusercontent.com/89011801/151314534-87c39742-586a-49ea-a694-3e1d375859d7.jpg)
+https://user-images.githubusercontent.com/89011801/151481042-45cb8c9c-c61f-458a-a3f1-ed9dd1979326.mp4
+
+
+
+
 
 ## Methodology
 
@@ -133,7 +137,7 @@ Drowsiness detection and then showing on viewfinder whether the person is sleepy
 #### Drowsiness Detection Module
 
 #### This Module is divided into two parts:
-    1] Drowsiness detection
+#### 1] Drowsiness detection
 
 • Ability to detect the location of face in any input image or frame. The output is the
 bounding box coordinates on the detected face.
@@ -145,7 +149,7 @@ and google images and made our own dataset.
 • This Datasets identifies face in a Bitmap graphic object and returns the bounding
 box image with annotation of face present in a given image.
     
-    2] Behaviour Detection
+#### 2] Behaviour Detection
 
 • Classification of the face based on whether it is yawning or not.
 
@@ -263,10 +267,8 @@ sudo python3 detect.py --weights yolov5s.pt --source 0
 ## Drowsiness Dataset Training
 ### We used Google Colab And Roboflow
 
-train your model on colab and download the weights and past them into yolov5 folder
+train your model on colab and download the weights and pass them into yolov5 folder
 link of project
-
-Insert gif or link to demo
 
 
 ## Running Drowsiness Detection Model
@@ -334,8 +336,8 @@ sleepy drivers and makes roads safer for everyone else.
 to country’s human assets which further improves the economy.
 ## Refrences
 
-1] Roboflow :- https://roboflow.com/
+#### 1] Roboflow :- https://roboflow.com/
 
-2] Datasets or images used :- https://www.gettyimages.ae/photos/drowsy-driver?assettype=image&license=rf&alloweduse=availableforalluses&family=creative&phrase=drowsy%20driver&sort=mostpopular
+#### 2] Datasets or images used :- https://www.gettyimages.ae/photos/drowsy-driver?assettype=image&license=rf&alloweduse=availableforalluses&family=creative&phrase=drowsy%20driver&sort=mostpopular
 
-3] Google images
+#### 3] Google images

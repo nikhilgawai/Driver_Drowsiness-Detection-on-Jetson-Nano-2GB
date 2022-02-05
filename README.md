@@ -205,7 +205,7 @@ export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1
 ```bash
 source ~/.bashrc
 ```
-### Udpade a System
+### Update a System
 ```bash
 sudo apt-get update && sudo apt-get upgrade
 ```
